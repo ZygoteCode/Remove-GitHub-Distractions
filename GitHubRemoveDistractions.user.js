@@ -14,7 +14,7 @@
 
 (function()
 {
-    var css = ".AppHeader-actions,notification-indicator,deferred-side-panel[data-url='/_side-panels/global']{display:none!important;visibility:hidden!important;}";
+    var css = ".AppHeader-CopilotChat,.AppHeader-actions,notification-indicator,deferred-side-panel[data-url='/_side-panels/global']{display:none!important;visibility:hidden!important;}";
 
     if (window.location.href == 'https://github.com/' || window.location.href.startsWith("https://github.com/?"))
     {
